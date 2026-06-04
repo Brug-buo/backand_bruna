@@ -11,5 +11,5 @@ console.log(`Idade: ${aluno.idade} anos`)
 console.log(`Cidade: ${aluno.cidade}`)
 console.log(`Curso: ${aluno.curso}`)
 
-aluno.cidade = "Ribeirão Preto"
+aluno.cidade = "Ribeirão Preto";
 console.log(`Nova Cidade: ${aluno.cidade}`)
