@@ -1,3 +1,5 @@
+//aula02-ex04
+const input = require('readline-sync')
 
 function executarOperacao(a, b, operacao) {
     const resultado = operacao(a, b)

@@ -1,4 +1,5 @@
-
+//aula03-ex02
+const input = require('readline-sync')
 const produtos = [
     { id: 1, nome: "Crocks", preco: 90.00 },
     { id: 2, nome: "Relogio", preco: 20.00 },

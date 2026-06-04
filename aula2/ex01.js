@@ -1,3 +1,5 @@
+//aula02-ex01
+const input = require('readline-sync')
 
 function somar(a, b) {
     return a + b
@@ -14,8 +16,9 @@ function dividir(a, b) {
     }
     return a / b
 }
-const num1 = parseFloat(prompt("Digite o 1° número:"))
-const num2 = parseFloat(prompt("Digite o 2° número:"))
+const num1 = parseFloat(input.question("Digite o 1° numero: "))
+const num2 = parseFloat(input.question("Digite o 2° numero: "))
+
 console.log(`Soma: ${somar(num1, num2)}`)
 console.log(`Subtração: ${subtrair(num1, num2)}`)
 console.log(`Multiplicação: ${multiplicar(num1, num2)}`)

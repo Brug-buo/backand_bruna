@@ -1,4 +1,5 @@
-
+//aula03-ex04
+const input = require('readline-sync')
 const alunos = [
     { id: 1, nome: "Amanda", nota: 10.0 },
     { id: 2, nome: "Briana", nota: 9.5 },

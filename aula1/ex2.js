@@ -1,4 +1,5 @@
-
+//aula01-ex02
+const input = require('readline-sync')
 const num1 = Number(prompt("Digite o 1° número:"))
 const num2 = Number(prompt("Digite o 2° número:"))
 

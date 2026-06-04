@@ -1,18 +1,13 @@
 //aula01-ex03
-let some = 0
+const input = require('readline-sync');
 
-for (let i = 1; i <= 5; i++){
-    let nota = Number(prompt(`Digite a nota ${i}:`))
-    some += nota
+let nota = Number(input.question("Digite a nota: "));
+
+if (nota >= 7) { 
+    console.log("Aprovado");
+} else if (nota >= 5) { 
+    console.log("Recuperacao");
+} else { 
+    console.log("Reprovado");
 }
 
-let media = some / 5
-console.log(`Média final: ${media.toFixed(1)}`)
-
-if (media >= 7) {
-    console.log("Aprovado")
-} else if (media >= 5) {
-    console.log("Recuperação")
-} else {
-    console.log("Reprovado")
-}
