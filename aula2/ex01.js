@@ -14,7 +14,7 @@ function dividir(a, b) {
     if (b === 0) {
         return "Erro"
     }
-    return a / b
+    return a / b;
 }
 const num1 = parseFloat(input.question("Digite o 1° numero: "))
 const num2 = parseFloat(input.question("Digite o 2° numero: "))
