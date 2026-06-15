@@ -1,4 +1,4 @@
-//aula01-ex01
+//aula01-ex01.
 const input = require('readline-sync')
 
 const nome = input.question('Qual o seu nome? ')
