@@ -1,5 +1,3 @@
-//aula03-ex01
-const input = require('readline-sync')
 const aluno = {
     nome: "Bruna",
     idade: 15,
