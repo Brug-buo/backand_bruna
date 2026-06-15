@@ -14,6 +14,6 @@ console.log(`Multiplicação: ${multiplicacao}`)
 if (num2 === 0) {
     console.log("Erro")
 } else {
-    const divisao = num1 / num2;
+    const divisao = num1 / num2
     console.log(`Divisão: ${divisao}`)
 }
