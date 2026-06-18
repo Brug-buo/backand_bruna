@@ -1,5 +1,6 @@
-const temperaturaC = 5
+const tempc = 4
 
-const temperaturaF = temperaturaC * 1.8 + 32
 
-console.log (`A temperatura de ${temperaturaC}°C foi convertido para ${temperaturaF}°F.`)
+const tempf = tempc * 1.8 + 32
+console.log(`A tempertura de ${tempc}°C foi convertido para ${tempf}°F.`)
+
