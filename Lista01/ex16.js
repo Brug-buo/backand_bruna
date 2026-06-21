@@ -1,3 +1,4 @@
+//Exerccio opicional - Boletim da turma (Desafio).
 const alunos = [
   { nome: "Nicolas", nota: 5.1 },
   { nome: "Luis",    nota: 9.9 },
